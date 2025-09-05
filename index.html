@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="hi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <meta name="description" content="Tech Consultancy for SMEs | Business Solutions for Small and Emerging Companies">
 </head>
+
 <body>
 
     <!-- Header Section -->
@@ -31,78 +33,20 @@
         </div>
     </section>
 
-    <!-- Origin Story Section -->
-    <section id="origin-story">
-        <div class="container">
-            <h2>2. हमारी कहानी</h2>
-            <p>यह विचार मुझे तब आया जब एक बायोटेक्नोलॉजी कंपनी को अपने वर्क-फ्रॉम-होम कर्मचारियों की मॉनिटरिंग करनी थी। कंपनी को सही समाधान नहीं मिल रहा था। तब मैंने रिसर्च करके उनके लिए 3 बेहतरीन सॉफ़्टवेयर की सूची बनाई, जिसमें फीचर्स, प्राइसिंग और उपयोग सब स्पष्ट था।</p>
-            <p><strong>👉 परिणाम:</strong> कंपनी ने तुरंत सही टूल चुना और बिना किसी परेशानी के कर्मचारियों का काम ट्रैक करना शुरू किया। यहीं से मुझे एहसास हुआ कि ऐसी समस्याएँ हर छोटे व्यवसाय के सामने आती हैं।</p>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services">
-        <div class="container">
-            <h2>3. हमारी सेवाएँ</h2>
-            <p>हम आपकी कंपनी के लिए टेक्नोलॉजी से जुड़ी सही सलाह और समाधान उपलब्ध कराते हैं।</p>
-            <h3>🔹 Consultancy Services</h3>
-            <ul>
-                <li>सही Software / ERP / CRM चुनने में मदद</li>
-                <li>WFH Employee Monitoring Solutions</li>
-                <li>Workflow Automation & Productivity Tools</li>
-                <li>Cloud Migration और Data Management</li>
-                <li>Cyber Security Basics</li>
-                <li>Data Analytics & Business Reporting</li>
-            </ul>
-
-            <h3>🔹 Service Packages</h3>
-            <div class="packages">
-                <div class="package">
-                    <h4>Basic Package (₹15,000–₹30,000)</h4>
-                    <ul>
-                        <li>3–4 टूल्स का detailed comparison रिपोर्ट</li>
-                        <li>Implementation roadmap</li>
-                    </ul>
-                </div>
-                <div class="package">
-                    <h4>Advanced Package (₹50,000–₹1,00,000)</h4>
-                    <ul>
-                        <li>Software selection + Setup + Training</li>
-                        <li>Workflow automation solutions</li>
-                    </ul>
-                </div>
-                <div class="package">
-                    <h4>Monthly Retainer (₹10,000–₹40,000)</h4>
-                    <ul>
-                        <li>लगातार IT सलाह और टेक सपोर्ट</li>
-                        <li>नए tools और upgrades की सिफारिश</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Benefits Section -->
-    <section id="benefits">
-        <div class="container">
-            <h2>4. आपको क्या लाभ होगा?</h2>
-            <ul>
-                <li>सही टेक्नोलॉजी सही बजट में मिलेगी</li>
-                <li>रिसर्च में आपका समय और पैसा बचेगा</li>
-                <li>आपकी टीम की प्रोडक्टिविटी बढ़ेगी</li>
-                <li>आप बड़ी कंपनियों की तरह टेक्नोलॉजी का लाभ उठा पाएँगे, लेकिन affordable cost पर</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
+    <!-- Lead Capture Form Section -->
     <section id="contact">
         <div class="container">
             <h2>5. निष्कर्ष और Call to Action</h2>
             <p>हमारा मकसद है कि छोटी और उभरती कंपनियाँ भी टेक्नोलॉजी का उतना ही लाभ उठा सकें, जितना बड़ी कंपनियाँ लेती हैं। आपकी कंपनी को डिजिटल रूप से मजबूत बनाने में हम आपके साथ हैं।</p>
-            <p><strong>📞 संपर्क करें:</strong> Swatantra Shukla</p>
-            <p><strong>📧 ईमेल:</strong> <a href="mailto:Swatantrarnq@outlook.com">Swatantrarnq@outlook.com</a></p>
-            <p><strong>Contact:</strong> 9452057769</p>
+            
+            <h3>Lead Capture Form</h3>
+            <form id="lead-form" action="submit_form.php" method="POST">
+                <input type="text" name="name" placeholder="आपका नाम" required>
+                <input type="email" name="email" placeholder="आपका ईमेल" required>
+                <input type="tel" name="phone" placeholder="आपका फोन नंबर" required>
+                <textarea name="message" placeholder="आपका संदेश" required></textarea>
+                <button type="submit" class="cta-button">फ़ॉर्म भेजें</button>
+            </form>
         </div>
     </section>
 
@@ -113,5 +57,7 @@
         </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
+
 </html>
